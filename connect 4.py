@@ -16,6 +16,7 @@ def main():
     winner = 0 # 0 - no winner, 1 - winner, 2 - tie
     gamemode = 1 # 1 PvP, 2 PvAI
     turnColor = RED
+    locked = True
 
     # Main game loop
     while True:
